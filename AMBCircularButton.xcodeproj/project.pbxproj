@@ -17,8 +17,10 @@
 		384AA52A18C0ACF000638360 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA52918C0ACF000638360 /* XCTest.framework */; };
 		384AA52B18C0ACF000638360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA51018C0ACEF00638360 /* Foundation.framework */; };
 		384AA52C18C0ACF000638360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA51418C0ACF000638360 /* UIKit.framework */; };
-		384AA53418C0ACF000638360 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 384AA53218C0ACF000638360 /* InfoPlist.strings */; };
-		384AA53618C0ACF000638360 /* AMBCircularButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 384AA53518C0ACF000638360 /* AMBCircularButtonTests.m */; };
+		38F8CB4318C0B153001DD0BB /* AMBCircularButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F8CB4218C0B153001DD0BB /* AMBCircularButton.m */; };
+		38F8CB4718C0B7EC001DD0BB /* AMBTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F8CB4618C0B7EC001DD0BB /* AMBTestTableViewController.m */; };
+		38F8CB4918C0BABE001DD0BB /* sir.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F8CB4818C0BABE001DD0BB /* sir.png */; };
+		CA8781D07DDD494788D46EB9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC79916752924CAAB5BFE496 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1553CE3726A84D379BEDCC5F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		384AA50D18C0ACEF00638360 /* AMBCircularButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMBCircularButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		384AA51018C0ACEF00638360 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		384AA51218C0ACEF00638360 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,9 +48,12 @@
 		384AA52218C0ACF000638360 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		384AA52818C0ACF000638360 /* AMBCircularButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMBCircularButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		384AA52918C0ACF000638360 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		384AA53118C0ACF000638360 /* AMBCircularButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMBCircularButtonTests-Info.plist"; sourceTree = "<group>"; };
-		384AA53318C0ACF000638360 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		384AA53518C0ACF000638360 /* AMBCircularButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMBCircularButtonTests.m; sourceTree = "<group>"; };
+		38F8CB4118C0B153001DD0BB /* AMBCircularButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBCircularButton.h; sourceTree = "<group>"; };
+		38F8CB4218C0B153001DD0BB /* AMBCircularButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBCircularButton.m; sourceTree = "<group>"; };
+		38F8CB4518C0B7EC001DD0BB /* AMBTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBTestTableViewController.h; sourceTree = "<group>"; };
+		38F8CB4618C0B7EC001DD0BB /* AMBTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBTestTableViewController.m; sourceTree = "<group>"; };
+		38F8CB4818C0BABE001DD0BB /* sir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sir.png; sourceTree = "<group>"; };
+		BC79916752924CAAB5BFE496 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 				384AA51318C0ACEF00638360 /* CoreGraphics.framework in Frameworks */,
 				384AA51518C0ACF000638360 /* UIKit.framework in Frameworks */,
 				384AA51118C0ACEF00638360 /* Foundation.framework in Frameworks */,
+				CA8781D07DDD494788D46EB9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +84,11 @@
 		384AA50418C0ACEF00638360 = {
 			isa = PBXGroup;
 			children = (
-				384AA51618C0ACF000638360 /* AMBCircularButton */,
-				384AA52F18C0ACF000638360 /* AMBCircularButtonTests */,
+				384AA51618C0ACF000638360 /* Example */,
+				38F8CB3F18C0B10A001DD0BB /* AMBCircularButton */,
 				384AA50F18C0ACEF00638360 /* Frameworks */,
 				384AA50E18C0ACEF00638360 /* Products */,
+				1553CE3726A84D379BEDCC5F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,24 +108,26 @@
 				384AA51218C0ACEF00638360 /* CoreGraphics.framework */,
 				384AA51418C0ACF000638360 /* UIKit.framework */,
 				384AA52918C0ACF000638360 /* XCTest.framework */,
+				BC79916752924CAAB5BFE496 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		384AA51618C0ACF000638360 /* AMBCircularButton */ = {
+		384AA51618C0ACF000638360 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				384AA51F18C0ACF000638360 /* AMBAppDelegate.h */,
-				384AA52018C0ACF000638360 /* AMBAppDelegate.m */,
+				38F8CB4018C0B127001DD0BB /* Classes */,
 				384AA52218C0ACF000638360 /* Images.xcassets */,
 				384AA51718C0ACF000638360 /* Supporting Files */,
 			);
+			name = Example;
 			path = AMBCircularButton;
 			sourceTree = "<group>";
 		};
 		384AA51718C0ACF000638360 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				38F8CB4818C0BABE001DD0BB /* sir.png */,
 				384AA51818C0ACF000638360 /* AMBCircularButton-Info.plist */,
 				384AA51918C0ACF000638360 /* InfoPlist.strings */,
 				384AA51C18C0ACF000638360 /* main.m */,
@@ -126,22 +136,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		384AA52F18C0ACF000638360 /* AMBCircularButtonTests */ = {
+		38F8CB3F18C0B10A001DD0BB /* AMBCircularButton */ = {
 			isa = PBXGroup;
 			children = (
-				384AA53518C0ACF000638360 /* AMBCircularButtonTests.m */,
-				384AA53018C0ACF000638360 /* Supporting Files */,
+				38F8CB4118C0B153001DD0BB /* AMBCircularButton.h */,
+				38F8CB4218C0B153001DD0BB /* AMBCircularButton.m */,
 			);
-			path = AMBCircularButtonTests;
+			name = AMBCircularButton;
 			sourceTree = "<group>";
 		};
-		384AA53018C0ACF000638360 /* Supporting Files */ = {
+		38F8CB4018C0B127001DD0BB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				384AA53118C0ACF000638360 /* AMBCircularButtonTests-Info.plist */,
-				384AA53218C0ACF000638360 /* InfoPlist.strings */,
+				384AA51F18C0ACF000638360 /* AMBAppDelegate.h */,
+				384AA52018C0ACF000638360 /* AMBAppDelegate.m */,
+				38F8CB4518C0B7EC001DD0BB /* AMBTestTableViewController.h */,
+				38F8CB4618C0B7EC001DD0BB /* AMBTestTableViewController.m */,
 			);
-			name = "Supporting Files";
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 384AA53918C0ACF000638360 /* Build configuration list for PBXNativeTarget "AMBCircularButton" */;
 			buildPhases = (
+				6588FAE5A6B94ECD9BE46D64 /* Check Pods Manifest.lock */,
 				384AA50918C0ACEF00638360 /* Sources */,
 				384AA50A18C0ACEF00638360 /* Frameworks */,
 				384AA50B18C0ACEF00638360 /* Resources */,
+				94B9B27F16A4410680114530 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F8CB4918C0BABE001DD0BB /* sir.png in Resources */,
 				384AA51B18C0ACF000638360 /* InfoPlist.strings in Resources */,
 				384AA52318C0ACF000638360 /* Images.xcassets in Resources */,
 			);
@@ -229,11 +244,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				384AA53418C0ACF000638360 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6588FAE5A6B94ECD9BE46D64 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94B9B27F16A4410680114530 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		384AA50918C0ACEF00638360 /* Sources */ = {
@@ -241,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				384AA51D18C0ACF000638360 /* main.m in Sources */,
+				38F8CB4318C0B153001DD0BB /* AMBCircularButton.m in Sources */,
+				38F8CB4718C0B7EC001DD0BB /* AMBTestTableViewController.m in Sources */,
 				384AA52118C0ACF000638360 /* AMBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +298,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				384AA53618C0ACF000638360 /* AMBCircularButtonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +316,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				384AA51A18C0ACF000638360 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		384AA53218C0ACF000638360 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				384AA53318C0ACF000638360 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -320,6 +360,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -354,11 +395,13 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
 		384AA53A18C0ACF000638360 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1553CE3726A84D379BEDCC5F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -366,12 +409,14 @@
 				GCC_PREFIX_HEADER = "AMBCircularButton/AMBCircularButton-Prefix.pch";
 				INFOPLIST_FILE = "AMBCircularButton/AMBCircularButton-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		384AA53B18C0ACF000638360 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1553CE3726A84D379BEDCC5F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -379,6 +424,7 @@
 				GCC_PREFIX_HEADER = "AMBCircularButton/AMBCircularButton-Prefix.pch";
 				INFOPLIST_FILE = "AMBCircularButton/AMBCircularButton-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -444,6 +490,7 @@
 				384AA53B18C0ACF000638360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		384AA53C18C0ACF000638360 /* Build configuration list for PBXNativeTarget "AMBCircularButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +499,7 @@
 				384AA53E18C0ACF000638360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

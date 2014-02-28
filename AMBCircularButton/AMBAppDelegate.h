@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AMBTestTableViewController.h"
 
 @interface AMBAppDelegate : UIResponder <UIApplicationDelegate>
 
