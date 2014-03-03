@@ -10,17 +10,14 @@
 		384AA51118C0ACEF00638360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA51018C0ACEF00638360 /* Foundation.framework */; };
 		384AA51318C0ACEF00638360 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA51218C0ACEF00638360 /* CoreGraphics.framework */; };
 		384AA51518C0ACF000638360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA51418C0ACF000638360 /* UIKit.framework */; };
-		384AA51B18C0ACF000638360 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 384AA51918C0ACF000638360 /* InfoPlist.strings */; };
-		384AA51D18C0ACF000638360 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 384AA51C18C0ACF000638360 /* main.m */; };
-		384AA52318C0ACF000638360 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384AA52218C0ACF000638360 /* Images.xcassets */; };
 		384AA52A18C0ACF000638360 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA52918C0ACF000638360 /* XCTest.framework */; };
 		384AA52B18C0ACF000638360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA51018C0ACEF00638360 /* Foundation.framework */; };
 		384AA52C18C0ACF000638360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA51418C0ACF000638360 /* UIKit.framework */; };
-		3874EC7618C48C3C001A9751 /* AMBTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3874EC6A18C48C3C001A9751 /* AMBTestTableViewController.m */; };
-		3874EC7818C48C3C001A9751 /* AMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3874EC6E18C48C3C001A9751 /* AMBAppDelegate.m */; };
-		3874EC7A18C48C3C001A9751 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3874EC7218C48C3C001A9751 /* InfoPlist.strings */; };
 		3874EC7F18C48C5B001A9751 /* AMBCircularButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3874EC7D18C48C5B001A9751 /* AMBCircularButton.m */; };
-		38F8CB4918C0BABE001DD0BB /* sir.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F8CB4818C0BABE001DD0BB /* sir.png */; };
+		3874EC8218C490AF001A9751 /* AMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3874EC8118C490AF001A9751 /* AMBAppDelegate.m */; };
+		3874EC8418C490D5001A9751 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3874EC8318C490D5001A9751 /* Images.xcassets */; };
+		3874EC8718C490E0001A9751 /* AMBTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3874EC8618C490E0001A9751 /* AMBTestTableViewController.m */; };
+		3874EC8C18C49104001A9751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3874EC8B18C49104001A9751 /* main.m */; };
 		CA8781D07DDD494788D46EB9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC79916752924CAAB5BFE496 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,21 +37,18 @@
 		384AA51018C0ACEF00638360 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		384AA51218C0ACEF00638360 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		384AA51418C0ACF000638360 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		384AA51818C0ACF000638360 /* AMBCircularButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMBCircularButton-Info.plist"; sourceTree = "<group>"; };
-		384AA51A18C0ACF000638360 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		384AA51C18C0ACF000638360 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		384AA51E18C0ACF000638360 /* AMBCircularButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMBCircularButton-Prefix.pch"; sourceTree = "<group>"; };
-		384AA52218C0ACF000638360 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		384AA52818C0ACF000638360 /* AMBCircularButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMBCircularButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		384AA52918C0ACF000638360 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3874EC6A18C48C3C001A9751 /* AMBTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBTestTableViewController.m; sourceTree = "<group>"; };
-		3874EC6C18C48C3C001A9751 /* AMBTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBTestTableViewController.h; sourceTree = "<group>"; };
-		3874EC6D18C48C3C001A9751 /* AMBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBAppDelegate.h; sourceTree = "<group>"; };
-		3874EC6E18C48C3C001A9751 /* AMBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBAppDelegate.m; sourceTree = "<group>"; };
-		3874EC7318C48C3C001A9751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		3874EC7D18C48C5B001A9751 /* AMBCircularButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMBCircularButton.m; path = AMBCircularButton/AMBCircularButton.m; sourceTree = "<group>"; };
 		3874EC7E18C48C5B001A9751 /* AMBCircularButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMBCircularButton.h; path = AMBCircularButton/AMBCircularButton.h; sourceTree = "<group>"; };
-		38F8CB4818C0BABE001DD0BB /* sir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sir.png; sourceTree = "<group>"; };
+		3874EC8018C490AF001A9751 /* AMBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMBAppDelegate.h; path = Example/AMBAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		3874EC8118C490AF001A9751 /* AMBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMBAppDelegate.m; path = Example/AMBAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		3874EC8318C490D5001A9751 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Example/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		3874EC8518C490E0001A9751 /* AMBTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMBTestTableViewController.h; path = Example/AMBTestTableViewController.h; sourceTree = SOURCE_ROOT; };
+		3874EC8618C490E0001A9751 /* AMBTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMBTestTableViewController.m; path = Example/AMBTestTableViewController.m; sourceTree = SOURCE_ROOT; };
+		3874EC8818C490F7001A9751 /* AMBCircularButton-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AMBCircularButton-Info.plist"; path = "Example/AMBCircularButton-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3874EC8918C490F7001A9751 /* AMBCircularButton-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AMBCircularButton-Prefix.pch"; path = "Example/AMBCircularButton-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		3874EC8B18C49104001A9751 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/main.m; sourceTree = SOURCE_ROOT; };
 		BC79916752924CAAB5BFE496 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -119,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				38F8CB4018C0B127001DD0BB /* Classes */,
-				384AA52218C0ACF000638360 /* Images.xcassets */,
+				3874EC8318C490D5001A9751 /* Images.xcassets */,
 				384AA51718C0ACF000638360 /* Supporting Files */,
 			);
 			name = Example;
@@ -129,21 +123,11 @@
 		384AA51718C0ACF000638360 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				38F8CB4818C0BABE001DD0BB /* sir.png */,
-				384AA51818C0ACF000638360 /* AMBCircularButton-Info.plist */,
-				384AA51918C0ACF000638360 /* InfoPlist.strings */,
-				384AA51C18C0ACF000638360 /* main.m */,
-				384AA51E18C0ACF000638360 /* AMBCircularButton-Prefix.pch */,
+				3874EC8818C490F7001A9751 /* AMBCircularButton-Info.plist */,
+				3874EC8918C490F7001A9751 /* AMBCircularButton-Prefix.pch */,
+				3874EC8B18C49104001A9751 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3874EC7118C48C3C001A9751 /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				3874EC7218C48C3C001A9751 /* InfoPlist.strings */,
-			);
-			path = en.lproj;
 			sourceTree = "<group>";
 		};
 		38F8CB3F18C0B10A001DD0BB /* AMBCircularButton */ = {
@@ -158,11 +142,10 @@
 		38F8CB4018C0B127001DD0BB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3874EC6A18C48C3C001A9751 /* AMBTestTableViewController.m */,
-				3874EC6C18C48C3C001A9751 /* AMBTestTableViewController.h */,
-				3874EC6D18C48C3C001A9751 /* AMBAppDelegate.h */,
-				3874EC6E18C48C3C001A9751 /* AMBAppDelegate.m */,
-				3874EC7118C48C3C001A9751 /* en.lproj */,
+				3874EC8518C490E0001A9751 /* AMBTestTableViewController.h */,
+				3874EC8618C490E0001A9751 /* AMBTestTableViewController.m */,
+				3874EC8018C490AF001A9751 /* AMBAppDelegate.h */,
+				3874EC8118C490AF001A9751 /* AMBAppDelegate.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -245,10 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3874EC7A18C48C3C001A9751 /* InfoPlist.strings in Resources */,
-				38F8CB4918C0BABE001DD0BB /* sir.png in Resources */,
-				384AA51B18C0ACF000638360 /* InfoPlist.strings in Resources */,
-				384AA52318C0ACF000638360 /* Images.xcassets in Resources */,
+				3874EC8418C490D5001A9751 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,9 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				384AA51D18C0ACF000638360 /* main.m in Sources */,
-				3874EC7618C48C3C001A9751 /* AMBTestTableViewController.m in Sources */,
-				3874EC7818C48C3C001A9751 /* AMBAppDelegate.m in Sources */,
+				3874EC8C18C49104001A9751 /* main.m in Sources */,
+				3874EC8218C490AF001A9751 /* AMBAppDelegate.m in Sources */,
+				3874EC8718C490E0001A9751 /* AMBTestTableViewController.m in Sources */,
 				3874EC7F18C48C5B001A9751 /* AMBCircularButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,25 +302,6 @@
 			targetProxy = 384AA52D18C0ACF000638360 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		384AA51918C0ACF000638360 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				384AA51A18C0ACF000638360 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3874EC7218C48C3C001A9751 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3874EC7318C48C3C001A9751 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		384AA53718C0ACF000638360 /* Debug */ = {
@@ -426,8 +387,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AMBCircularButton/AMBCircularButton-Prefix.pch";
-				INFOPLIST_FILE = "AMBCircularButton/AMBCircularButton-Info.plist";
+				GCC_PREFIX_HEADER = "Example/AMBCircularButton-Prefix.pch";
+				INFOPLIST_FILE = "Example/AMBCircularButton-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
@@ -441,8 +402,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AMBCircularButton/AMBCircularButton-Prefix.pch";
-				INFOPLIST_FILE = "AMBCircularButton/AMBCircularButton-Info.plist";
+				GCC_PREFIX_HEADER = "Example/AMBCircularButton-Prefix.pch";
+				INFOPLIST_FILE = "Example/AMBCircularButton-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
