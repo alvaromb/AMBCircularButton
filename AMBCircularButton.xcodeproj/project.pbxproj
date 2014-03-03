@@ -12,13 +12,14 @@
 		384AA51518C0ACF000638360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA51418C0ACF000638360 /* UIKit.framework */; };
 		384AA51B18C0ACF000638360 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 384AA51918C0ACF000638360 /* InfoPlist.strings */; };
 		384AA51D18C0ACF000638360 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 384AA51C18C0ACF000638360 /* main.m */; };
-		384AA52118C0ACF000638360 /* AMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 384AA52018C0ACF000638360 /* AMBAppDelegate.m */; };
 		384AA52318C0ACF000638360 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384AA52218C0ACF000638360 /* Images.xcassets */; };
 		384AA52A18C0ACF000638360 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA52918C0ACF000638360 /* XCTest.framework */; };
 		384AA52B18C0ACF000638360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA51018C0ACEF00638360 /* Foundation.framework */; };
 		384AA52C18C0ACF000638360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384AA51418C0ACF000638360 /* UIKit.framework */; };
-		38F8CB4318C0B153001DD0BB /* AMBCircularButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F8CB4218C0B153001DD0BB /* AMBCircularButton.m */; };
-		38F8CB4718C0B7EC001DD0BB /* AMBTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F8CB4618C0B7EC001DD0BB /* AMBTestTableViewController.m */; };
+		3874EC7618C48C3C001A9751 /* AMBTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3874EC6A18C48C3C001A9751 /* AMBTestTableViewController.m */; };
+		3874EC7818C48C3C001A9751 /* AMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3874EC6E18C48C3C001A9751 /* AMBAppDelegate.m */; };
+		3874EC7A18C48C3C001A9751 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3874EC7218C48C3C001A9751 /* InfoPlist.strings */; };
+		3874EC7F18C48C5B001A9751 /* AMBCircularButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3874EC7D18C48C5B001A9751 /* AMBCircularButton.m */; };
 		38F8CB4918C0BABE001DD0BB /* sir.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F8CB4818C0BABE001DD0BB /* sir.png */; };
 		CA8781D07DDD494788D46EB9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC79916752924CAAB5BFE496 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -43,15 +44,16 @@
 		384AA51A18C0ACF000638360 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		384AA51C18C0ACF000638360 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		384AA51E18C0ACF000638360 /* AMBCircularButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMBCircularButton-Prefix.pch"; sourceTree = "<group>"; };
-		384AA51F18C0ACF000638360 /* AMBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMBAppDelegate.h; sourceTree = "<group>"; };
-		384AA52018C0ACF000638360 /* AMBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMBAppDelegate.m; sourceTree = "<group>"; };
 		384AA52218C0ACF000638360 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		384AA52818C0ACF000638360 /* AMBCircularButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMBCircularButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		384AA52918C0ACF000638360 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		38F8CB4118C0B153001DD0BB /* AMBCircularButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBCircularButton.h; sourceTree = "<group>"; };
-		38F8CB4218C0B153001DD0BB /* AMBCircularButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBCircularButton.m; sourceTree = "<group>"; };
-		38F8CB4518C0B7EC001DD0BB /* AMBTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBTestTableViewController.h; sourceTree = "<group>"; };
-		38F8CB4618C0B7EC001DD0BB /* AMBTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBTestTableViewController.m; sourceTree = "<group>"; };
+		3874EC6A18C48C3C001A9751 /* AMBTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBTestTableViewController.m; sourceTree = "<group>"; };
+		3874EC6C18C48C3C001A9751 /* AMBTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBTestTableViewController.h; sourceTree = "<group>"; };
+		3874EC6D18C48C3C001A9751 /* AMBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBAppDelegate.h; sourceTree = "<group>"; };
+		3874EC6E18C48C3C001A9751 /* AMBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBAppDelegate.m; sourceTree = "<group>"; };
+		3874EC7318C48C3C001A9751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		3874EC7D18C48C5B001A9751 /* AMBCircularButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMBCircularButton.m; path = AMBCircularButton/AMBCircularButton.m; sourceTree = "<group>"; };
+		3874EC7E18C48C5B001A9751 /* AMBCircularButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMBCircularButton.h; path = AMBCircularButton/AMBCircularButton.h; sourceTree = "<group>"; };
 		38F8CB4818C0BABE001DD0BB /* sir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sir.png; sourceTree = "<group>"; };
 		BC79916752924CAAB5BFE496 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,11 +138,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3874EC7118C48C3C001A9751 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3874EC7218C48C3C001A9751 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
 		38F8CB3F18C0B10A001DD0BB /* AMBCircularButton */ = {
 			isa = PBXGroup;
 			children = (
-				38F8CB4118C0B153001DD0BB /* AMBCircularButton.h */,
-				38F8CB4218C0B153001DD0BB /* AMBCircularButton.m */,
+				3874EC7D18C48C5B001A9751 /* AMBCircularButton.m */,
+				3874EC7E18C48C5B001A9751 /* AMBCircularButton.h */,
 			);
 			name = AMBCircularButton;
 			sourceTree = "<group>";
@@ -148,10 +158,11 @@
 		38F8CB4018C0B127001DD0BB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				384AA51F18C0ACF000638360 /* AMBAppDelegate.h */,
-				384AA52018C0ACF000638360 /* AMBAppDelegate.m */,
-				38F8CB4518C0B7EC001DD0BB /* AMBTestTableViewController.h */,
-				38F8CB4618C0B7EC001DD0BB /* AMBTestTableViewController.m */,
+				3874EC6A18C48C3C001A9751 /* AMBTestTableViewController.m */,
+				3874EC6C18C48C3C001A9751 /* AMBTestTableViewController.h */,
+				3874EC6D18C48C3C001A9751 /* AMBAppDelegate.h */,
+				3874EC6E18C48C3C001A9751 /* AMBAppDelegate.m */,
+				3874EC7118C48C3C001A9751 /* en.lproj */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -234,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3874EC7A18C48C3C001A9751 /* InfoPlist.strings in Resources */,
 				38F8CB4918C0BABE001DD0BB /* sir.png in Resources */,
 				384AA51B18C0ACF000638360 /* InfoPlist.strings in Resources */,
 				384AA52318C0ACF000638360 /* Images.xcassets in Resources */,
@@ -288,9 +300,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				384AA51D18C0ACF000638360 /* main.m in Sources */,
-				38F8CB4318C0B153001DD0BB /* AMBCircularButton.m in Sources */,
-				38F8CB4718C0B7EC001DD0BB /* AMBTestTableViewController.m in Sources */,
-				384AA52118C0ACF000638360 /* AMBAppDelegate.m in Sources */,
+				3874EC7618C48C3C001A9751 /* AMBTestTableViewController.m in Sources */,
+				3874EC7818C48C3C001A9751 /* AMBAppDelegate.m in Sources */,
+				3874EC7F18C48C5B001A9751 /* AMBCircularButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +328,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				384AA51A18C0ACF000638360 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3874EC7218C48C3C001A9751 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3874EC7318C48C3C001A9751 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
