@@ -24,7 +24,7 @@ iOS 6.0+, ARC and ``Foundation.framework``, ``QuartzCore.framework`` and ``UIKit
 
 ###CocoaPods
 
-Add ``pod 'AMBCircularButton`` to your ``Podfile``. Run ``pod install``.
+Add ``pod 'AMBCircularButton'`` to your ``Podfile``. Run ``pod install``.
 
 ###Source code
 
