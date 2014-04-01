@@ -55,6 +55,12 @@
 
 #pragma mark - Image set methods
 
+- (void)setCircularImage:(UIImage *)image
+                forState:(UIControlState)state
+{
+    [self setImage:image forState:state];
+}
+
 - (void)setCircularImageWithURL:(NSURL *)imageURL
                        forState:(UIControlState)state
 {

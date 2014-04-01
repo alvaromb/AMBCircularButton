@@ -12,6 +12,15 @@
 
 @interface AMBCircularButton : UIButton
 
+/**
+ Sets an UIImage to the circular button.
+ 
+ @param image An image to set.
+ @param state The state of the button.
+ */
+- (void)setCircularImage:(UIImage *)image
+                forState:(UIControlState)state;
+
 - (void)setCircularImageWithURL:(NSURL *)imageURL
                        forState:(UIControlState)state;
 - (void)setCircularImageWithURL:(NSURL *)imageURL
