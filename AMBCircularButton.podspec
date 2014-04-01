@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name              = 'AMBCircularButton'
-    s.version           = '0.0.1'
+    s.version           = '0.0.2'
     s.summary           = 'UIButton subclass to display circular images'
     s.homepage          = 'https://github.com/alvaromb/AMBCircularButton'
     s.license           = {
