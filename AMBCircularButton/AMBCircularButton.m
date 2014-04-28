@@ -43,6 +43,8 @@
 {
     self.contentMode = UIViewContentModeScaleAspectFill;
     self.clipsToBounds = YES;
+    self.layer.shouldRasterize = YES;
+    self.layer.rasterizationScale = [[UIScreen mainScreen] scale];
 }
 
 #pragma mark - Layout subviews
