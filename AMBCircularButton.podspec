@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name              = 'AMBCircularButton'
-    s.version           = '0.0.2'
+    s.version           = '0.0.3'
     s.summary           = 'UIButton subclass to display circular images'
     s.homepage          = 'https://github.com/alvaromb/AMBCircularButton'
     s.license           = {
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     }
     s.source            = {
         :git => 'https://github.com/alvaromb/AMBCircularButton.git',
-        :tag => '0.0.2'
+        :tag => '0.0.3'
     }
     s.source_files      = 'AMBCircularButton/*.{m,h}'
     s.requires_arc      = true
