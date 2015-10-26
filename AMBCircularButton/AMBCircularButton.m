@@ -66,14 +66,14 @@
 - (void)setCircularImageWithURL:(NSURL *)imageURL
                        forState:(UIControlState)state
 {
-    [self setImageWithURL:imageURL forState:state];
+    [self sd_setImageWithURL:imageURL forState:state];
 }
 
 - (void)setCircularImageWithURL:(NSURL *)imageURL
                        forState:(UIControlState)state
                placeholderImage:(UIImage *)placeholder
 {
-    [self setImageWithURL:imageURL forState:state placeholderImage:placeholder];
+    [self sd_setImageWithURL:imageURL forState:state placeholderImage:placeholder];
 }
 
 - (void)setCircularImageWithURL:(NSURL *)imageURL
@@ -81,7 +81,7 @@
                placeholderImage:(UIImage *)placeholder
                         options:(SDWebImageOptions)options
 {
-    [self setImageWithURL:imageURL forState:state placeholderImage:placeholder options:options];
+    [self sd_setImageWithURL:imageURL forState:state placeholderImage:placeholder options:options];
 }
 
 #pragma mark - Circular mask
@@ -89,17 +89,17 @@
 - (void)addMaskToBounds:(CGRect)maskBounds
 {
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
-	
+    
     CGPathRef maskPath = CGPathCreateWithEllipseInRect(maskBounds, NULL);
     maskLayer.bounds = maskBounds;
-	maskLayer.path = maskPath;
+    maskLayer.path = maskPath;
     maskLayer.fillColor = [UIColor blackColor].CGColor;
     CGPathRelease(maskPath);
     
     CGPoint point = CGPointMake(maskBounds.size.width/2, maskBounds.size.height/2);
     maskLayer.position = point;
     
-	[self.layer setMask:maskLayer];
+    [self.layer setMask:maskLayer];
 }
 
 @end
